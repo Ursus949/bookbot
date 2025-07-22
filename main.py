@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-from stats import get_num_words, count_characters, sort_characters
+from stats import get_book_text, get_num_words, count_characters, sort_characters
 import sys
-
-def get_book_text(filepath):
-    with open(filepath) as f:
-        file_contents = f.read()
-        return file_contents
 
 def main():
 
